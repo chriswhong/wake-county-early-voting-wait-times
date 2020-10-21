@@ -99,9 +99,9 @@ async function main() {
       fs.mkdirSync(TEMP_DIR);
     }
     const bodyFilename = 'body.csv'
-    await csv.toDisk(`${TEMP_DIR}/${bodyFilename}`)
+    await csv.toDisk(path.resolve(__dirname, `${TEMP_DIR}/${bodyFilename}`))
 
-    // qri save
+
     const bodyPath = path.resolve(__dirname, `${TEMP_DIR}/${bodyFilename}`)
     await qri.save('me/wake-county-early-voting-wait-times', {
       body: bodyPath
