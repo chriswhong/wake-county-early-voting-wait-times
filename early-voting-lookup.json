@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Abbott's Creek Community Center",
+    "longitude": -78.5796615,
+    "latitude": 35.9024228
+  },
+  {
+    "name": "Apex Community Center",
+    "longitude": -78.8477713,
+    "latitude": 35.7335884
+  },
+  {
+    "name": "Avery Street Recreation Center",
+    "longitude": -78.6132246,
+    "latitude": 35.7121434
+  },
+  {
+    "name": "Barwell Road Community Center",
+    "longitude": -78.5514164,
+    "latitude": 35.7305552
+  },
+  {
+    "name": "Cary Senior Center",
+    "longitude": -78.82833,
+    "latitude": 35.7852104
+  },
+  {
+    "name": "Eastern Regional Center",
+    "longitude": -78.3219593,
+    "latitude": 35.8372259
+  },
+  {
+    "name": "Green Road Community Center",
+    "longitude": -78.5933224,
+    "latitude": 35.8411318
+  },
+  {
+    "name": "Herbert C. Young Community Center",
+    "longitude": -78.7827466,
+    "latitude": 35.7906268
+  },
+  {
+    "name": "Knightdale Recreation Center",
+    "longitude": -78.5209702,
+    "latitude": 35.7998178
+  },
+  {
+    "name": "Lake Lynn Community Center",
+    "longitude": -78.7011752,
+    "latitude": 35.8875842
+  },
+  {
+    "name": "Laurel Hills Community Center",
+    "longitude": -78.7005336,
+    "latitude": 35.8302567
+  },
+  {
+    "name": "NCSU Talley Student Union",
+    "longitude": -78.6731332,
+    "latitude": 35.7838527
+  },
+  {
+    "name": "Northern Regional Center",
+    "longitude": -78.5131533,
+    "latitude": 35.9701365
+  },
+  {
+    "name": "Optimist Community Center",
+    "longitude": -78.645889,
+    "latitude": 35.8624882
+  },
+  {
+    "name": "Roberts Community Center",
+    "longitude": -78.620495,
+    "latitude": 35.7755233
+  },
+  {
+    "name": "W.E. Hunt Recreation Center",
+    "longitude": -78.831415,
+    "latitude": 35.6464993
+  },
+  {
+    "name": "W.O. Council Gym",
+    "longitude": -78.7949039,
+    "latitude": 35.5848519
+  },
+  {
+    "name": "Wake County Commons Building",
+    "longitude": -78.5722767,
+    "latitude": 35.7716297
+  },
+  {
+    "name": "Wake Technical Community College North Campus",
+    "longitude": -78.7647425,
+    "latitude": 35.7595243
+  },
+  {
+    "name": "Wake Technical Community College South Campus",
+    "longitude": -78.7047179,
+    "latitude": 35.6515968
+  }
+]
