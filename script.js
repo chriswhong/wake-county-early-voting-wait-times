@@ -51,14 +51,23 @@ function transformAirtableData(airtableData) {
   const selectColumnKeys = columns.filter(d => d.type === 'select').map(d => d.id)
   return rows.map((d) => {
     const rawRowObject = d.cellValuesByColumnId
+
+    // compare keys in rawRowObject with columns.  If any are missing, set them to an empty string.
+    // this will ensure the resulting csv always has all columns even if an entire column is has no values
+    const columnKeys = columns.map(d => d.id)
+    columnKeys.forEach((id) => {
+      if (!rawRowObject[id]) {
+        rawRowObject[id] = ''
+      }
+    })
+
     let rowObject = {}
     Object.keys(rawRowObject).forEach((key) => {
       let value = rawRowObject[key]
 
       // if this is a select column, lookup the value in the column definition
-      if (selectColumnKeys.includes(key)) {
+      if (selectColumnKeys.includes(key) && (value !== '')) {
         const { choices } = columns.find(d => d.id === key).typeOptions
-        value = choices[value].name
       }
 
       // lookup column name
